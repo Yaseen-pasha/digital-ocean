@@ -27,17 +27,6 @@ app.post("/contact", (req, res)=>{
         console.log(error)
     });
 });
-// app.post("/contact", async (req, res)=>{
-//     try{
-//         const userData = new User(req.body);
-//         await userData.save();
-//         res.status(201).render("/");
-//     } catch (error) {
-//         res.status(500).send(error);
-//         console.log(error)
-//     }
-
-// });
 app.get('*', (req, res)=>{
     res.render('')
 });

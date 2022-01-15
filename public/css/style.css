@@ -403,37 +403,6 @@ h1{
     margin-left: 8px !important;
     color: black !important;
 }
-#preloader{
-    width: 100vw;
-    height: 100vh;
-    background-color: #000;
-    display: grid;
-    place-items: center;
-}
-.center_div{
-    width: 4rem;
-    height: 13rem;
-    /* background-color: red; */
-    position: relative;
-    right: 15px;
-}
-.rot{
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    border-right: 0.3rem solid #fff;
-    border-radius: 50%;
-    animation: rot 2s linear infinite;
-}
-.load{
-    position: absolute;
-    top: 18%;
-    left: 67%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 12px;
-}
-
 @media(max-width:768px){
     .nav-item{
         text-align: center !important;

@@ -391,6 +391,7 @@ h1{
 .nain{
     display: flex;
     justify-content: center;
+    margin-top: 13%;
 }
 .crown{
     display: block;

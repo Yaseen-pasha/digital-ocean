@@ -28,6 +28,13 @@
     <title>Digital Ocean</title>
   </head>
   <body>
+
+    <div id="preloader">
+      <div class="center_div">
+          <div class="rot"></div>
+          <h1 class= "load">Loading...</h1>
+      </div>
+  </div>
     <div class="header" id="topheader">
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container p-2 amazon">
@@ -662,6 +669,10 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
 
     <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function(){
+        loader.style.display = "none";
+      });
       $(".count").counterUp({
         delay: 10,
         time: 3000,

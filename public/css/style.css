@@ -406,6 +406,52 @@ h1{
 .nav-link:hover{
     color: black !important;
 }
+#preloader{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: grid;
+    place-items: center;
+}
+.center_div{
+    width: 4rem;
+    height: 13rem;
+    /* background-color: red; */
+    position: relative;
+    right: 15px;
+}
+.rot{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    border-right: 0.3rem solid #fff;
+    border-radius: 50%;
+    animation: rot 2s linear infinite;
+}
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.load{
+    position: absolute;
+    top: 18%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    /* color: #fff; */
+    background-image: rgba(128, 0, 1, 0.85);
+    font-size: 16px !important;
+}
+#preloader{
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
 @media(max-width:768px){
     .nav-item{
         text-align: center !important;

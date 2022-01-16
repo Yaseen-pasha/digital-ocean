@@ -391,7 +391,6 @@ h1{
 .nain{
     display: flex;
     justify-content: center;
-    margin-top: 13%;
 }
 .crown{
     display: block;
@@ -540,6 +539,9 @@ h1{
     }
     .nav-link{
         margin: -5px !important;
+    }
+    .nain{
+        margin-top: 13%;
     }
 
 

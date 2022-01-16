@@ -402,6 +402,9 @@ h1{
 }
 .nav-link{
     margin-left: 8px !important;
+    color: grey!important;
+}
+.nav-link:hover{
     color: black !important;
 }
 @media(max-width:768px){
@@ -490,7 +493,7 @@ h1{
         padding: 1px 8px !important;
     }
     .nav-link{
-        margin: -8px !important;
+        margin: -5px !important;
     }
 
 

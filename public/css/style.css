@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lovers+Quarrel&family=Mulish:ital,wght@0,300;1,300&display=swap');
+
 html{
     scroll-behavior: smooth !important;
 }
@@ -16,7 +18,7 @@ body{
 }
 .header{
     width: 100%;
-    height: 90vh;
+    height: 74vh;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     clip-path: polygon(100% 0%, 100% 98%, 50% 100%, 0% 98%, 0% 0% );
@@ -33,7 +35,7 @@ body{
     right: 0;
     /* background-image: url(../images/inst17.jpg); */
     /* background-image: linear-gradient(rgba(92, 78, 78, -1), rgba(18, 18, 18, 1)), url(../images/inst17.jpg); */
-    background-image: linear-gradient(90deg, rgba(128, 0, 1, 0.85) 38%, 50%, #fff 0%);
+    background-image: linear-gradient(90deg, #bb2d3b 38%, 50%, #fff 0%);
 
 
     /* background-color: black; */
@@ -51,14 +53,15 @@ body{
     background-blend-mode: darken;
 }
 .nav-item  a{
-    font-weight: bold;
     font-size: 20px;
     color:white;
 }
 .navbar-brand{
     color:white;
+    font-size: 3rem !important;
+    text-decoration: none;
     font-weight: bold;
-    font-size: 28px !important;
+    font-family: 'Lovers Quarrel', cursive;
 }
 h1{
     margin-top: 0;
@@ -85,16 +88,16 @@ h1{
 }
 .magic{
     font-size: 17px;
-    color: black;
+    color: darkolivegreen;
 }
 .header-buttons a{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 19px;
     color: whitesmoke;
     text-decoration: none;
     padding: 1px 22px;
     margin-left: 14px;
-    background: firebrick;
+    background: #575656;
 }
 .desk{
     margin: 40px 0 10px 0px;
@@ -111,8 +114,7 @@ h1{
     width: 60%;
 }
 .trop{
-    color:brown;
-    /* color:deeppink; */
+    color:#ff259bd9;
     font-size: 22px;
     font-weight: bold;
 }
@@ -433,10 +435,10 @@ h1{
 }
 .nav-link{
     margin-left: 8px !important;
-    color: grey!important;
+    color: grey !important;
 }
 .nav-link:hover{
-    color: black !important;
+    color: #575656 !important;
 }
 #preloader{
     width: 100vw;
@@ -658,6 +660,9 @@ h1{
         display: block;
         margin: auto;
     }
+    .nav-link:hover{
+        color: #f4daaaa3 !important;
+    }
     .animate {
         animation-duration: 0.5s !important;
         -webkit-animation-duration: 0.5s !important;
@@ -691,6 +696,7 @@ h1{
     -webkit-transform: translateY(1rem);
     -webkit-opacity: 0;
   }
+  
 }  
       .slideIn {
         -webkit-animation-name: slideIn !important;
@@ -698,6 +704,7 @@ h1{
       }
       
   }
+
 
 
 
@@ -780,14 +787,13 @@ h1{
         z-index: 100;
     }
     .navbar-brand{
-        font-size: 23px !important;
+        font-size: 30px !important;
     }
      .navbar-nav {
         background: rgba(128, 0, 1, 0.85);
         width: 180%;
     }
     .nav-item  a{
-        font-weight: bold;
         font-size: 17px;
         color: wheat !important;
     }

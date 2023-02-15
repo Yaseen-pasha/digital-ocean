@@ -102,12 +102,12 @@ h1{
 .desk{
     margin: 40px 0 10px 0px;
     width: 15%;
-    color:black;
+    color:dimgrey;
 }
 .desk:hover{
     margin: 40px 0 10px 0px;
     width: 15%;
-    color:dimgrey;
+    color:rgb(68, 68, 68);
 }
 .offs{
     margin: 8px 0 0px 110px;
